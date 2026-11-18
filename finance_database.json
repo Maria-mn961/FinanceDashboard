@@ -1,0 +1,148 @@
+
+{
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Заплата",
+      "type": "income",
+      "icon": "briefcase"
+    },
+    {
+      "id": 2,
+      "name": "Бонус",
+      "type": "income",
+      "icon": "gift"
+    },
+    {
+      "id": 3,
+      "name": "Други приходи",
+      "type": "income",
+      "icon": "wallet"
+    },
+    {
+      "id": 4,
+      "name": "Храна",
+      "type": "expense",
+      "icon": "shopping-cart"
+    },
+    {
+      "id": 5,
+      "name": "Транспорт",
+      "type": "expense",
+      "icon": "car"
+    },
+    {
+      "id": 6,
+      "name": "Наем",
+      "type": "expense",
+      "icon": "home"
+    },
+    {
+      "id": 7,
+      "name": "Сметки",
+      "type": "expense",
+      "icon": "receipt"
+    },
+    {
+      "id": 8,
+      "name": "Пазаруване",
+      "type": "expense",
+      "icon": "shopping-bag"
+    },
+    {
+      "id": 9,
+      "name": "Забавления",
+      "type": "expense",
+      "icon": "gamepad"
+    },
+    {
+      "id": 10,
+      "name": "Здраве",
+      "type": "expense",
+      "icon": "heart"
+    },
+    {
+      "id": 11,
+      "name": "Образование",
+      "type": "expense",
+      "icon": "book"
+    },
+    {
+      "id": 12,
+      "name": "Други разходи",
+      "type": "expense",
+      "icon": "wallet"
+    }
+  ],
+
+  "merchants": [],
+
+  "merchant_category_rules": [
+    {
+      "keyword": "lidl",
+      "category_id": 4
+    },
+    {
+      "keyword": "kaufland",
+      "category_id": 4
+    },
+    {
+      "keyword": "billa",
+      "category_id": 4
+    },
+    {
+      "keyword": "restaurant",
+      "category_id": 4
+    },
+    {
+      "keyword": "shell",
+      "category_id": 5
+    },
+    {
+      "keyword": "omv",
+      "category_id": 5
+    },
+    {
+      "keyword": "uber",
+      "category_id": 5
+    },
+    {
+      "keyword": "taxi",
+      "category_id": 5
+    },
+    {
+      "keyword": "rent",
+      "category_id": 6
+    },
+    {
+      "keyword": "наем",
+      "category_id": 6
+    },
+    {
+      "keyword": "vivacom",
+      "category_id": 7
+    },
+    {
+      "keyword": "yettel",
+      "category_id": 7
+    },
+    {
+      "keyword": "интернет",
+      "category_id": 7
+    },
+    {
+      "keyword": "netflix",
+      "category_id": 9
+    },
+    {
+      "keyword": "spotify",
+      "category_id": 9
+    },
+    {
+      "keyword": "cinema",
+      "category_id": 9
+    }
+  ]
+
+}

@@ -1,0 +1,87 @@
+ {
+ 
+ "schemas": {
+    "users": {
+      "id": "integer",
+      "username": "string",
+      "email": "string",
+      "password_hash": "string",
+      "created_at": "datetime"
+    },
+
+    "user_settings": {
+      "id": "integer",
+      "user_id": "integer",
+      "currency": "string",
+      "theme": "string",
+      "language": "string",
+      "notifications_enabled": "boolean"
+    },
+
+    "categories": {
+      "id": "integer",
+      "name": "string",
+      "type": "income | expense",
+      "icon": "string"
+    },
+
+    "merchants": {
+      "id": "integer",
+      "user_id": "integer",
+      "name": "string",
+      "default_category_id": "integer | null"
+    },
+
+    "merchant_category_rules": {
+      "keyword": "string",
+      "category_id": "integer"
+    },
+
+    "transactions": {
+      "id": "integer",
+      "user_id": "integer",
+      "merchant_id": "integer | null",
+      "type": "income | expense",
+      "amount_cents": "integer",
+      "description": "string",
+      "transaction_date": "date",
+      "created_at": "datetime"
+    },
+
+    "budgets": {
+      "id": "integer",
+      "user_id": "integer",
+      "category_id": "integer",
+      "amount_limit_cents": "integer",
+      "month": "integer",
+      "year": "integer"
+    },
+
+    "savings_goals": {
+      "id": "integer",
+      "user_id": "integer",
+      "name": "string",
+      "target_amount_cents": "integer",
+      "deadline": "date | null",
+      "status": "active | completed | cancelled",
+      "created_at": "datetime"
+    },
+
+    "goal_contributions": {
+      "id": "integer",
+      "goal_id": "integer",
+      "amount_cents": "integer",
+      "contribution_date": "date",
+      "note": "string"
+    },
+
+    "notifications": {
+      "id": "integer",
+      "user_id": "integer",
+      "title": "string",
+      "message": "string",
+      "is_read": "boolean",
+      "created_at": "datetime"
+    }
+  }
+ }
