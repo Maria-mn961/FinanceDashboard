@@ -1,0 +1,2 @@
+# FinanceDashboard
+A Python application
